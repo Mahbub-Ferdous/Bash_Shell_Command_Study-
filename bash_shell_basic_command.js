@@ -14,6 +14,11 @@ if you want to create a file directory on directory then file then command ---  
 
 
 
+**** if i want see my ssh key ====>> cat ~/.ssh/id_rsa.pub
+
+
+
+
 **********************  Ctrl, Alt, exit, clear  ******************
 
 
