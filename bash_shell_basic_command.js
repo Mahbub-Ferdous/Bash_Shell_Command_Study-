@@ -14,6 +14,11 @@ if you want to create a file directory on directory then file then command ---  
 
 
 
+**** if i want see my ssh key ====>> cat ~/.ssh/id_rsa.pub
+
+
+
+
 **********************  Ctrl, Alt, exit, clear  ******************
 
 
@@ -102,12 +107,63 @@ if i want to take some code to githb file raw then create a file then goto the f
 
 
 
- 
+**** For shell scripting .sh extended file make executabel use = chmod 777 FileName
+
+Description = in general chmod means change modules and its stands 4 = read, 2 = write, 1 = execute and all total 7 that why we give access 777 for all permission for execution 
 
 
 
- 
+### when we write any shell script file we have to add first Shebang or hashbang like = #!/bin/bash
 
+###################
+###################
+###################
+###################
 
+### Monitoring and troubleshooting command###
+### networking troubleshooting linux command###
 
+*** hostname     => To check and set the hostname of the server.
+
+*** host	 => To get host DNS details
+
+*** ping	 => Checks if the remote server is reachable using ICMP protocol. It also shows the round trip time of packets.
+
+*** curl         => A cross-platform utility that is used to transfer data. It can be used for troubleshooting several network issues.
+
+*** wget	 => Utility to download files. Can be used for troubleshooting proxy connections and connectivity.
+
+*** ip	         => A replacement for ifconfig. Can be used to configure and retrieve information about systems network interfaces
+
+*** arp	         => Utility to view and manage arp cache.
+
+*** ss/netstat	 => Primarily used to check the connections and PID on ports and Unix sockets.
+
+*** traceroute	 => This utility uses the ICMP protocol and finds the hops involved in reading the destination server. It also shows the time it takes between hops.
+
+*** mtr  	 => mtr is a mix of ping and traceroute. It also provides additional information like intermediate hosts and responsiveness.
+
+*** dig	         => Helps you get the DNS records associated with a domain name.
+
+*** nslookup	 => Command similar to dig.
+
+*** nc	         => utility to debug TCP/UDP sockets.
+
+*** telnet	 => It can be used to test remote connectivity on ports
+
+*** route	 => Helps you get all the route table information
+
+*** tcpdump	 => This utility helps you to capture network packets and analyze them for network issues.
+
+*** lsof	 => list all the open files and the process information that opened it
+
+### Monitoring SRE troubleshooting ###
+
+*** top          => This command provides real-time information about system resource usage, including CPU, memory, and running processes. You might get overwhelmed as to what to look for in this output.you get "load average", "zombie process","cpu%","s", "SHR-shared memory","RS-resident memory use"
+
+*** free         => The free command is used to display the amount of free and used memory in the system, including both physical and swap memory. you know anout memory details like = "shared memory", "used", "total, "cached" and "available"
+
+*** nproc        => this for cpu and ram yoou can use 
+
+***
 
